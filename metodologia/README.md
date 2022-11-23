@@ -45,7 +45,7 @@ Como linguagem de programação, o código Java é baseado em classes e orientad
 
 Minhas contribuições pessoais neste projeto foram principalmente na parte do desenvolvimento do backend e na modelagem e criação do banco de dados. 
 
-Para a modelagem do banco utilizei a ferramenta brModelo para criar as entidades, atributos e definir seus relacionamentos.
+Para a modelagem do banco utilizei a ferramenta brModelo para criar as entidades, atributos e definir seus relacionamentos. Onde foi definido que: Um produto pode fazer parte de vários carrinhos e um carrinho precisa receber pelo menos um ou vários produtos. Uma promoção pertence a apenas um produto, já um produto pode fazer parte de diversas promoções, ou seja, uma promoção não pode existir sem um produto.
 <details>
 <summary>Modelagem</summary>
 <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F718ca954-37be-47dd-8e1d-46bb63ffad25%2FUntitled.png?table=block&id=36cc1090-d8f6-4f7e-872e-83d9dad12b32&spaceId=70f68203-9aa8-48f2-9c19-ba66c1511816&width=2000&userId=607976c1-73b5-4be3-8f82-323ac698a9fd&cache=v2" width="500" height="400"/>
@@ -59,8 +59,6 @@ Fui a responsável pelo desenvolvimento do projeto utilizando programação OO e
 <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7de10511-ef9a-4955-9d4e-e3b7d744e72a%2Fpatterns.png?table=block&id=566df640-3624-4898-889d-f0e018fb6683&spaceId=70f68203-9aa8-48f2-9c19-ba66c1511816&width=2000&userId=607976c1-73b5-4be3-8f82-323ac698a9fd&cache=v2" width="500" height="400"/>
 </details>
 
-Também ajudei no desenvolvimento da lógica de verificar as promoções dos produtos no carrinho de compras. 
-
 A linguagem de programação JavaScript foi utilizada sem nenhuma framework para o desenvolvimento do front-End, ou seja, a  interface com o usuário via  aplicação web. 
 
 Durante o projeto utilizamos o JQuery  para simplificar os scripts e interações com o HTML.
@@ -69,10 +67,10 @@ Durante o projeto utilizamos o JQuery  para simplificar os scripts e interaçõe
 
 Neste projeto desenvolvi mais minhas habilidades no back-End, aprendendo com utilizar uma Rest API considerada nova no mercado chamada Quarkus. Essa experiência me ajudou muito a como pesquisar  informações nas fontes primárias, que são as publicações técnicas geralmente realizadas pelos próprios criadores e responsáveis pelas mais diversas tecnologias. Considero esse aprendizado fundamental para minha trajetória pessoal e profissional, me tornando mais proativa em minhas skills de programação.
 
-Já no front-End aprendi poucas coisas pois não foi minha principal foco de desenvolvimento no projeto mas aprendi um pouco sobre estruturas  das páginas em HTML e funcionalidades em JavaScript.
+Já no front-End aprendi poucas coisas pois não foi minha principal foco de desenvolvimento no projeto mas aprendi um pouco sobre estruturas das páginas em HTML e funcionalidades em JavaScript.
 
 - Criação de CRUD’S completos: Sei fazer com autonomia.
-- Utilização de protocolo HTTP; Requisição GET, POST, PUT, DELETE: Sei fazer com autonomia.
+- Requisição GET, POST, PUT, DELETE: Sei fazer com autonomia.
 - Organizar a arquitetura do projeto de forma correta: Sei fazer com autonomia.
 - Usar lógica de programação para desenvolver regras para criação de promoções: Sei fazer com autonomia.
 - Desenvolver aplicações utilizando frameworks de REST API: Sei fazer com autonomia.
