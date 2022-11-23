@@ -14,7 +14,8 @@ Meu primeiro contato com programação foi na faculdade, a primeira linguagem qu
 
 O parceiro do projeto nesse semestre foi a empresa Midall.
 
-<img src="https://user-images.githubusercontent.com/80851038/163725778-498ec2e9-e8eb-45cf-a586-848e5bb1dd97.png" width="200" height="200"/>
+<img src="https://user-images.githubusercontent.com/80851038/163725778-498ec2e9-e8eb-45cf-a586-848e5bb1dd97.png" width="300" height="200"/>
+
 
 ### Visão do Projeto
 
@@ -45,13 +46,18 @@ Como linguagem de programação, o código Java é baseado em classes e orientad
 Minhas contribuições pessoais neste projeto foram principalmente na parte do desenvolvimento do backend e na modelagem e criação do banco de dados. 
 
 Para a modelagem do banco utilizei a ferramenta brModelo para criar as entidades, atributos e definir seus relacionamentos.
-
+<details>
+<summary>Modelagem</summary>
 <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F718ca954-37be-47dd-8e1d-46bb63ffad25%2FUntitled.png?table=block&id=36cc1090-d8f6-4f7e-872e-83d9dad12b32&spaceId=70f68203-9aa8-48f2-9c19-ba66c1511816&width=2000&userId=607976c1-73b5-4be3-8f82-323ac698a9fd&cache=v2" width="500" height="400"/>
+</details>
+
 
 Fui a responsável pelo desenvolvimento do projeto utilizando programação OO e a definição da utilização do Arquitetura do projeto: Models, Services, Repositories e Resources. Também ajudei no desenvolvimento da lógica de verificar as promoções dos produtos no carrinho de compras. 
 
-
+<details>
+<summary> Packages </summary>
 <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7de10511-ef9a-4955-9d4e-e3b7d744e72a%2Fpatterns.png?table=block&id=566df640-3624-4898-889d-f0e018fb6683&spaceId=70f68203-9aa8-48f2-9c19-ba66c1511816&width=2000&userId=607976c1-73b5-4be3-8f82-323ac698a9fd&cache=v2" width="500" height="400"/>
+</details>
 
 Também ajudei no desenvolvimento da lógica de verificar as promoções dos produtos no carrinho de compras. 
 
