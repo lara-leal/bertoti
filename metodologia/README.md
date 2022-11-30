@@ -2,7 +2,9 @@
 
 ## Introdução
 
-Olá, seja bem-vindo ao meu repositório, meu nome é Lara Oliveira Leal, sou estudante de Banco de Dados na FATEC São José dos Campos - Prof. Jessen Vidal. 
+Olá, seja bem-vindo ao meu repositório, meu nome é Lara Oliveira Leal, sou estudante de Banco de Dados na FATEC São José dos Campos - Prof. Jessen Vidal.
+
+<img src="https://user-images.githubusercontent.com/80706297/204921403-b4a50c19-1385-4d16-8ed1-9e3bb7cf491c.jpeg" width="300" height="400"/>
 
 ## Principais Conhecimentos
 
