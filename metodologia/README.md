@@ -50,6 +50,7 @@ Para a modelagem do banco utilizei a ferramenta brModelo para criar as entidades
 <summary>Modelagem</summary>
 <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F718ca954-37be-47dd-8e1d-46bb63ffad25%2FUntitled.png?table=block&id=36cc1090-d8f6-4f7e-872e-83d9dad12b32&spaceId=70f68203-9aa8-48f2-9c19-ba66c1511816&width=2000&userId=607976c1-73b5-4be3-8f82-323ac698a9fd&cache=v2" width="500" height="400"/>
 </details>  
+
 Fui a responsável pelo desenvolvimento do projeto utilizando programação OO e a definição da utilização do Arquitetura do projeto: Models, Services, Repositories e Resources. Contribui também no desenvolvimento da lógica de verificar as promoções dos produtos no carrinho de compras. 
 <details>
 <summary> Packages </summary>
