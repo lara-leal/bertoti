@@ -49,15 +49,24 @@ Para a modelagem do banco utilizei a ferramenta brModelo para criar as entidades
 <details>
 <summary>Modelagem</summary>
 <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F718ca954-37be-47dd-8e1d-46bb63ffad25%2FUntitled.png?table=block&id=36cc1090-d8f6-4f7e-872e-83d9dad12b32&spaceId=70f68203-9aa8-48f2-9c19-ba66c1511816&width=2000&userId=607976c1-73b5-4be3-8f82-323ac698a9fd&cache=v2" width="500" height="400"/>
-</details>
-
-
-Fui a responsável pelo desenvolvimento do projeto utilizando programação OO e a definição da utilização do Arquitetura do projeto: Models, Services, Repositories e Resources. Também ajudei no desenvolvimento da lógica de verificar as promoções dos produtos no carrinho de compras. 
-
+</details>  
+Fui a responsável pelo desenvolvimento do projeto utilizando programação OO e a definição da utilização do Arquitetura do projeto: Models, Services, Repositories e Resources. Contribui também no desenvolvimento da lógica de verificar as promoções dos produtos no carrinho de compras. 
 <details>
 <summary> Packages </summary>
 <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7de10511-ef9a-4955-9d4e-e3b7d744e72a%2Fpatterns.png?table=block&id=566df640-3624-4898-889d-f0e018fb6683&spaceId=70f68203-9aa8-48f2-9c19-ba66c1511816&width=2000&userId=607976c1-73b5-4be3-8f82-323ac698a9fd&cache=v2" width="500" height="400"/>
 </details>
+
+Durante o desenvolvimento se tornou necessário a refatoração do código para adicionar Dto's e injeções de dependência onde contribui efetivamente, o que ajudou a deixar o código mais desacoplado e facilitar na hora de ampliar a aplicação.
+<details>
+<summary> DTO </summary>
+<img src="https://user-images.githubusercontent.com/80706297/204786984-af27a088-7eeb-446e-b6cd-25374a1425c0.png" width="500" height="300"/>
+</details>  
+
+<details>
+<summary> Injeção de dependências </summary>
+<img src="https://user-images.githubusercontent.com/80706297/204786984-af27a088-7eeb-446e-b6cd-25374a1425c0.png" width="500" height="300"/>
+</details>  
+
 
 A linguagem de programação JavaScript foi utilizada sem nenhuma framework para o desenvolvimento do front-End, ou seja, a  interface com o usuário via  aplicação web. 
 
