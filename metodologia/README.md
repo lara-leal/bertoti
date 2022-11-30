@@ -65,7 +65,7 @@ Durante o desenvolvimento se tornou necessário a refatoração do código para 
 
 <details>
 <summary> Injeção de dependências </summary>
-<img src="https://user-images.githubusercontent.com/80706297/204786984-af27a088-7eeb-446e-b6cd-25374a1425c0.png" width="500" height="300"/>
+<img src="https://user-images.githubusercontent.com/80706297/204789559-e565bf85-1519-496f-b81c-1f239a0f0f45.png" width="600" height="400"/>
 </details>  
 
 
