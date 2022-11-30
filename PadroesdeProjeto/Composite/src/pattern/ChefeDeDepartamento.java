@@ -2,7 +2,7 @@ package pattern;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ChefeDeDepartamento implements Departamento {
+public  abstract class ChefeDeDepartamento implements Departamento {
 	private Integer id;
 	private String name;
 
