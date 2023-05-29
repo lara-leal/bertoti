@@ -4,7 +4,7 @@
 
 Olá, seja bem-vindo ao meu repositório, meu nome é Lara Oliveira Leal, sou estudante de Banco de Dados na FATEC São José dos Campos - Prof. Jessen Vidal.
 
-![Untitled](https://media.discordapp.net/attachments/888964389368131629/1112823218579976262/WhatsApp_Image_2023-05-29_at_16.21.38.jpeg?width=225&height=400)
+  <img src="https://user-images.githubusercontent.com/80706297/204921403-b4a50c19-1385-4d16-8ed1-9e3bb7cf491c.jpeg" width="300" height="400"/>
 
 ## Principais Conhecimentos
 
