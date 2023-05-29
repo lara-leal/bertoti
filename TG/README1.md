@@ -61,10 +61,10 @@ Fui a responsável pelo desenvolvimento das seguintes funções da nossa assiste
 ![Untitled](https://media.discordapp.net/attachments/888964389368131629/1112808900920619088/faltas.png?width=536&height=401)
 
 ### Aprendizados Efetivos HS
+
+Neste projeto pude começar a desenvolver minhas habilidades em linguagens de programação do zero. Aprendendo o que é uma função, entender como funciona a linguagem de programação Python e aplicar lógica de programação. 
     
-    Neste projeto pude começar a desenvolver minhas habilidades em linguagens de programação do zero. Aprendendo o que é uma função, entender como funciona a linguagem de programação Python e aplicar lógica de programação. 
-    
-    Tendo também a oportunidade de conhecer metodologias ágeis e atuar como Scrum Master.  
+Tendo também a oportunidade de conhecer metodologias ágeis e atuar como Scrum Master.  
     
 - Usar lógica de programação para desenvolver cálculos: Sei fazer com autonomia.
 - Aprender como programar;
