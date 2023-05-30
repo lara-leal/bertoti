@@ -52,13 +52,19 @@ A ferramenta utilizada para desenvolver o banco de dados nesse primeiro projeto 
 
 Fui a responsável pelo desenvolvimento das seguintes funções da nossa assistente de voz:
 
-- Cálculo de média.
+</details>
+
+<details>
+<summary> Cálculo de média </summary>
 
 ![Untitled](https://media.discordapp.net/attachments/888964389368131629/1112808901230985288/media.png?width=1025&height=370)
+</details>
 
-- Controle de faltas.
+<details>
+<summary> Controle de faltas </summary>
 
 ![Untitled](https://media.discordapp.net/attachments/888964389368131629/1112808900920619088/faltas.png?width=536&height=401)
+</details>
 
 ### Aprendizados Efetivos HS
 
@@ -66,8 +72,9 @@ Neste projeto pude começar a desenvolver minhas habilidades em linguagens de pr
     
 Tendo também a oportunidade de conhecer metodologias ágeis e atuar como Scrum Master.  
     
-- Usar lógica de programação para desenvolver cálculos: Sei fazer com autonomia.
+- Usar lógica de programação para desenvolver cálculos;
 - Aprender como programar;
 - Aprender como usar uma IDE;
 - Aprender como fazer uma modelagem de banco de dados;
 - Aprender como usar bibliotecas;
+- Utilizar a biblioteca SpeechRecognition;
