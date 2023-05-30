@@ -80,8 +80,8 @@ Neste projeto desenvolvi mais minhas habilidades no back-End, aprendendo com uti
 
 Já no front-End aprendi poucas coisas pois não foi minha principal foco de desenvolvimento no projeto mas aprendi um pouco sobre estruturas das páginas em HTML e funcionalidades em JavaScript.
 
-- Criação de CRUD’S completos: Sei fazer com autonomia.
-- Requisição GET, POST, PUT, DELETE: Sei fazer com autonomia.
-- Organizar a arquitetura do projeto de forma correta: Sei fazer com autonomia.
-- Usar lógica de programação para desenvolver regras para criação de promoções: Sei fazer com autonomia.
-- Desenvolver aplicações utilizando frameworks de REST API: Sei fazer com autonomia.
+- Criação de CRUD’S completos;
+- Requisição GET, POST, PUT, DELETE;
+- Organizar a arquitetura do projeto de forma correta;
+- Usar lógica de programação para desenvolver regras para criação de promoções;
+- Desenvolver aplicações utilizando frameworks de REST API: Sei fazer com autonomia;
