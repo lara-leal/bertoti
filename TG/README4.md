@@ -35,5 +35,23 @@ Vue.js é um framework de desenvolvimento web de código aberto e progressivo, a
 O Spring Boot é um framework de desenvolvimento de aplicativos Java que visa facilitar a criação de aplicativos robustos e escaláveis. Ele fornece uma configuração simplificada e pré-definida, permitindo aos desenvolvedores se concentrarem na lógica de negócios em vez de tarefas de configuração. Com o Spring Boot, é possível criar rapidamente aplicativos Java de maneira eficiente, aproveitando a poderosa plataforma Spring.
 
 ### Contribuições pessoais
+Nesse projeto contribui principalmente na parte da definição de relacionamentos nas classes da aplicação, baseado em nossa modelagem do banco de dados. 
+Desenvolvi também os CRUDS das classes de Chamados, Usuários e Agendamentos e a implementação de DTO'S nas classes que foram necessários.
+
+Relacionamento usando annotations do javax.persistence:
+
+![Untitled](https://media.discordapp.net/attachments/888964389368131629/1113104716151398532/image.png)
+
+DTO:
+
+![Untitled](https://media.discordapp.net/attachments/888964389368131629/1113104206262456400/image.png?width=783&height=401)
+
+Métodos GET, POST, UPDATE E DELETE:
+
+![Untitled](https://media.discordapp.net/attachments/888964389368131629/1113105760218533918/image.png?width=621&height=401)
+
+Planejamento realizado da modelagem do banco de dados utilizando a ferramenta LucidChart:
+
+![Untitled](https://media.discordapp.net/attachments/888964389368131629/1113101276616601630/WhatsApp_Image_2023-05-30_at_10.37.07.png?width=439&height=401)
 
 ### Aprendizados Efetivos HS
