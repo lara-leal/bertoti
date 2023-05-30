@@ -38,20 +38,33 @@ O Spring Boot é um framework de desenvolvimento de aplicativos Java que visa fa
 Nesse projeto contribui principalmente na parte da definição de relacionamentos nas classes da aplicação, baseado em nossa modelagem do banco de dados. 
 Desenvolvi também os CRUDS das classes de Chamados, Usuários e Agendamentos e a implementação de DTO'S nas classes que foram necessários.
 
-Relacionamento usando annotations do javax.persistence:
+
+<details>
+<summary> Relacionamento usando annotations do javax.persistence: </summary>
 
 ![Untitled](https://media.discordapp.net/attachments/888964389368131629/1113104716151398532/image.png)
+</details> 
 
-DTO:
 
+
+<details>
+<summary> DTO: </summary>
+  
 ![Untitled](https://media.discordapp.net/attachments/888964389368131629/1113104206262456400/image.png?width=783&height=401)
+</details> 
 
-Métodos GET, POST, UPDATE E DELETE:
 
+<details>
+<summary> Métodos GET, POST, UPDATE E DELETE:</summary>
+  
 ![Untitled](https://media.discordapp.net/attachments/888964389368131629/1113105760218533918/image.png?width=621&height=401)
+</details>
 
-Planejamento realizado da modelagem do banco de dados utilizando a ferramenta LucidChart:
-
+<details>
+<summary> MER:</summary>
+  
 ![Untitled](https://media.discordapp.net/attachments/888964389368131629/1113101276616601630/WhatsApp_Image_2023-05-30_at_10.37.07.png?width=439&height=401)
+</details>
 
 ### Aprendizados Efetivos HS
+
