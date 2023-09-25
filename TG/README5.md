@@ -114,6 +114,11 @@ Durante o desenvolvimento desse projeto, fui responsável na área de desenvolvi
  <details>
   <summary> Desenvolvimento da dashboard </summary>
 	 <img src="https://github.com/lara-leal/bertoti/assets/80706297/40392e65-11b5-4b75-891f-4845bd49b066"/>
-
  </details>
+ 
+ ### Aprendizados Efetivos HS
+ - Trabalhar com ferramentas da AWS;
+ - Utilizar Google drive API;
+ - Entender insights de metadados para elaboração de dashboard de monitoramento;
+
 
