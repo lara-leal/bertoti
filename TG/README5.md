@@ -108,17 +108,58 @@ Durante o desenvolvimento desse projeto, fui responsável na área de desenvolvi
 				.body("Erro interno do servidor: " + e.getMessage());
     }
 	}
+	
+
 
  </details>
 
  <details>
   <summary> Desenvolvimento da dashboard </summary>
 	 <img src="https://github.com/lara-leal/bertoti/assets/80706297/40392e65-11b5-4b75-891f-4845bd49b066"/>
+	 Durante o desenvolvimento da dashboard, pude utilizar diferentes  recursos como o DAX do power BI com campos calculados, para armazenar e extrair informações como, tamanho do arquivo compartilhado e o tipo de arquivo mais compartilhado através da ferramenta.
+  
+
+``` 
+tamanho_arquivo = 
+    IF (
+        history[tamanho] < 1024,
+        FORMAT ( history[tamanho] , "#0.0# B" ),
+        IF (
+            history[tamanho]  < POWER ( 2, 20 ),
+            FORMAT ( history[tamanho]  / POWER ( 2, 10 ), "#0.0# KB" ),
+            IF (
+                history[tamanho]  < POWER ( 2, 30 ),
+                FORMAT ( history[tamanho]  / POWER ( 2, 20 ), "#0.0# MB" ),
+                FORMAT ( history[tamanho]  / POWER ( 2, 30 ), "#0.0# GB" )
+            )
+        )
+    )
+ ```
+
+```
+mais_utilizado = 
+MAXX (
+    TOPN (
+        1,
+        SELECTCOLUMNS (
+            SUMMARIZE (
+                'history',
+                'history'[tipo_arquivo],
+                "Count", COUNTROWS ('history')
+            ),
+            "tipo_arquivo", 'history'[tipo_arquivo],
+            "Count", [Count]
+        ),
+        [Count],
+        DESC
+    ),
+    [tipo_arquivo]
+)
+```
  </details>
  
  ### Aprendizados Efetivos HS
- - Trabalhar com ferramentas da AWS;
+ - Trabalhar com ferramentas da AWS; 
  - Utilizar Google drive API;
  - Entender insights de metadados para elaboração de dashboard de monitoramento;
-
 
