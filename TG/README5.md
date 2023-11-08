@@ -1,22 +1,6 @@
- # Lara Oliveira Leal
+<h1 align="center"> Projeto 5: 2º Semestre de 2023 </h1>
 
-## Introdução
-
-Olá, seja bem-vindo ao meu repositório, meu nome é Lara Oliveira Leal, sou estudante de Banco de Dados na FATEC São José dos Campos - Prof. Jessen Vidal.
-
-  <img src="https://user-images.githubusercontent.com/80706297/204921403-b4a50c19-1385-4d16-8ed1-9e3bb7cf491c.jpeg" width="300" height="400"/>
-
-## Principais Conhecimentos
-
-Meu primeiro contato com programação foi na faculdade, a primeira linguagem que aprendi foi Python nas aulas de LP 1 na faculdade. Atualmente meu foco principal de atuação é o Back-End onde a linguagem que possuo mais “fluência” é Java, tendo conhecimento para desenvolver web services, utilizar padrões de projetos e desenvolver sua arquitetura. Também possuo conhecimento em frameworks muito utilizadas em Java como: Quarkus, SpringBoot, Hibernate ORM.
-
-# Projeto 5: 1º Semestre de 2023
-
-### Parceiro Acadêmico
-
-O parceiro do projeto nesse semestre foi a empresa Midall.
-
-<img src="https://user-images.githubusercontent.com/80851038/163725778-498ec2e9-e8eb-45cf-a586-848e5bb1dd97.png" width="300" height="200"/>
+<div align="center"> Projeto Integrador - 5° Semestre | Fatec Prof. Jessen Vidal - 2023 | Cliente parceiro: Midall </div>
 
 ### Visão do Projeto
 Automatizar a jornada de download de arquivos, armazenados em uma plataforma de vídeo, efetuando essa transferência para a nuvem, através do desenvolvimento de um serviço tipo aplicação, tendo como funcionalidade junto ao usuário apenas um menu de configuração, que terá os parâmetros necessários para que o serviço de download seja executado. processar automaticamente, gerando alertas caso ocorram erros de processamento. Salvar metadados de arquivos para construção de dashboard de monitoramento da execução do serviço e posterior análise de resultados e indicadores (ex.: quantidade de arquivos transferidos, quantidade de bytes transferidos, tempo de transferência, etc.).
