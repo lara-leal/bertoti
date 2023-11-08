@@ -1,17 +1,6 @@
- # Lara Oliveira Leal
+<h1 align="center"> Projeto 6: 2º Semestre de 2023 </h1>
 
-## Introdução
-
-Olá, seja bem-vindo ao meu repositório, meu nome é Lara Oliveira Leal, sou estudante de Banco de Dados na FATEC São José dos Campos - Prof. Jessen Vidal.
-
-
-# Projeto 6: 2º Semestre de 2023
-
-### Parceiro Acadêmico
-O parceiro do projeto nesse semestre foi a empresa Visiona.
-
-
-<img src="https://media.discordapp.net/attachments/888964389368131629/1164364040672391309/1519902970656-removebg-preview.png?ex=6542f184&is=65307c84&hm=d8972b5a6f974d77d8cbc41149cd3ef27a636e72dc628568dd6ad3272800679a&=&width=250&height=250"/>
+<div align="center"> Projeto Integrador - 6° Semestre | Fatec Prof. Jessen Vidal - 2023 | Cliente parceiro: Visiona </div>
 
 ### Visão do Projeto
 
