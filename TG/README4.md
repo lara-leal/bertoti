@@ -2,11 +2,11 @@
 
 <div align="center"> Projeto Integrador - 4° Semestre | Fatec Prof. Jessen Vidal - 2022 | Cliente parceiro: Subiter </div>
 
-### Visão do Projeto
+## Visão do Projeto
 
 Desenvolver uma plataforma web que organiza todos os dados referentes aos serviços prestados pela empresa, de forma interpretada, cujo o principal objetivo é criar chamados e agendamentos conforme as necessidades do cliente e solucioná-los de forma ponta a ponta entre a relação do cliente com o suporte e, suporte com a do administrador que, trabalha na criação e sincronização dos dados em um único lugar.
 
-### Tecnologias adotadas na solução
+## Tecnologias adotadas na solução
 
 ### Java
 
@@ -20,7 +20,7 @@ Vue.js é um framework de desenvolvimento web de código aberto e progressivo, a
 
 O Spring Boot é um framework de desenvolvimento de aplicativos Java que visa facilitar a criação de aplicativos robustos e escaláveis. Ele fornece uma configuração simplificada e pré-definida, permitindo aos desenvolvedores se concentrarem na lógica de negócios em vez de tarefas de configuração. Com o Spring Boot, é possível criar rapidamente aplicativos Java de maneira eficiente, aproveitando a poderosa plataforma Spring.
 
-### Contribuições pessoais
+## Contribuições pessoais
 Nesse projeto contribui principalmente na parte da definição de relacionamentos nas classes da aplicação, baseado em nossa modelagem do banco de dados. 
 Desenvolvi também os CRUDS das classes de Chamados, Usuários e Agendamentos e a implementação de DTO'S nas classes que foram necessários.
 
