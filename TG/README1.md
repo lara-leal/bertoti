@@ -2,11 +2,12 @@
 ## Introdução
 <img align='right' src="https://cdn.discordapp.com/attachments/888964389368131629/1172989921062031400/fotor-2023111117240.png?ex=656252fe&is=654fddfe&hm=f7b1ead8b48fdd85912acf8ef333076a80cdb1c293c73e18707a5b0599cce062&" width="200" height="200"/>
 
-<p style="text-align: justify;"> Olá! Meu nome é Lara Leal, sou de São José dos Campos - SP e tenho 22 anos. Desde de criança sempre fui muito curiosa, algo que me acompanha até hoje. Por conta da curiosidade durante meu Ensino Médio cursei Técnico em Química no CEPHAS (Centro Educacional Hélio Augusto de Souza), terminei meu técnico e logo em seguida foi o ínicio da pandemia, onde tive conhecimento do Vestibular da FATEC e decidi prestar para saber mais sobre o mundo da técnologia, visto que seria online no momento, achei que seria uma ótima oportunidade para ganhar conhecimento durante essa fase.
-<br></br>
-Meu primeiro contato com programação foi na faculdade, a primeira linguagem que aprendi foi Python nas aulas de LP 1 na faculdade. Atualmente meu foco principal de atuação é o Back-End e Ciência de Dados, as linguagens que possuo mais "fluência" são Python e Java, tendo conhecimento para desenvolver web services, utilizar padrões de projetos e desenvolver sua arquitetura. Também possuo conhecimento em frameworks muito utilizadas no mercado como: Quarkus, SpringBoot e Flask.
+<p style="text-align: justify;"> 
+Olá! Meu nome é Lara Leal, sou de São José dos Campos - SP, e tenho 22 anos. Desde criança sempre fui muito curiosa, algo que me acompanha até hoje. No Ensino Médio, cursei Técnico em Química no CEPHAS (Centro Educacional Hélio Augusto de Souza) movida pela minha curiosidade. Terminei o técnico e, logo em seguida, veio o início da pandemia. Foi nesse momento que tomei conhecimento do Vestibular da FATEC e decidi prestá-lo para explorar mais sobre o mundo da tecnologia. Visto que seria online naquele momento, achei que seria uma ótima oportunidade para adquirir conhecimento durante essa fase desafiadora.
 
-Atualmente sou Analista de Sistemas na Farma Conde, onde atuo principalmente com levantamento de requisitos, arquitetura e modelagem de banco de dados e desenvolvimento de automatizações de processos. </p>
+Minha primeira experiência com programação aconteceu na faculdade, onde aprendi Python nas aulas de LP 1. Atualmente, meu foco principal é o Back-End e Ciência de Dados. Tenho mais familiaridade com as linguagens Python e Java, o que me permite desenvolver web services, utilizar padrões de projetos e criar arquiteturas. Também tenho conhecimento em frameworks amplamente utilizados no mercado, como Quarkus, SpringBoot e Flask.
+
+Atualmente, trabalho como Analista de Sistemas na Farma Conde. Minhas principais responsabilidades envolvem levantamento de requisitos, arquitetura e modelagem de banco de dados, além do desenvolvimento de automações de processos. </p>
 
 <h1 align="center"> Projeto 1: 1º Semestre de 2021 </h1>
 
