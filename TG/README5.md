@@ -2,10 +2,10 @@
 
 <div align="center"> Projeto Integrador - 5° Semestre | Fatec Prof. Jessen Vidal - 2023 | Cliente parceiro: Midall </div>
 
-### Visão do Projeto
+## Visão do Projeto
 Automatizar a jornada de download de arquivos, armazenados em uma plataforma de vídeo, efetuando essa transferência para a nuvem, através do desenvolvimento de um serviço tipo aplicação, tendo como funcionalidade junto ao usuário apenas um menu de configuração, que terá os parâmetros necessários para que o serviço de download seja executado. processar automaticamente, gerando alertas caso ocorram erros de processamento. Salvar metadados de arquivos para construção de dashboard de monitoramento da execução do serviço e posterior análise de resultados e indicadores (ex.: quantidade de arquivos transferidos, quantidade de bytes transferidos, tempo de transferência, etc.).
 
-### Tecnologias adotadas na solução
+## Tecnologias adotadas na solução
 
 ### Java
 Java é uma linguagem de programação orientada a objetos que foi criada na década de 1990 pela Sun Microsystems, e atualmente é propriedade da Oracle Corporation. É uma das linguagens de programação mais populares do mundo, usada em uma ampla variedade de aplicativos e sistemas, desde desenvolvimento de aplicativos desktop e web até jogos e dispositivos móveis.
@@ -19,7 +19,7 @@ A AWS (Amazon Web Services) é uma plataforma líder em serviços de computaçã
 ### Google Drive 
 O Google Drive é um serviço de armazenamento em nuvem oferecido pelo Google. Ele permite que os usuários armazenem, compartilhem e acessem arquivos e documentos de forma online. Com recursos de colaboração em tempo real, o Google Drive é amplamente utilizado para armazenar documentos, fotos, vídeos e outros tipos de arquivos de forma acessível a partir de qualquer dispositivo com acesso à internet. 
 
-### Contribuições Pessoais
+## Contribuições Pessoais
 Durante o desenvolvimento desse projeto, fui responsável na área de desenvolvimento na extração de metadados durante o envio de um arquivo do Google Drive para a AWS, para a elaboração da dashboard de monitoramento do cliente utilizando os recursos do fileMetadata do Google Drive API. 
 
 
