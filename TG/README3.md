@@ -1,30 +1,14 @@
-# Lara Oliveira Leal
+<h1 align="center"> Projeto 3: 1º Semestre de 2022 </h1>
 
-## Introdução
+<div align="center"> Projeto Integrador - 3° Semestre | Fatec Prof. Jessen Vidal - 2023 | Cliente parceiro: Midall </div>
 
-Olá, seja bem-vindo ao meu repositório, meu nome é Lara Oliveira Leal, sou estudante de Banco de Dados na FATEC São José dos Campos - Prof. Jessen Vidal.
-
-![Untitled](https://media.discordapp.net/attachments/888964389368131629/1112823218579976262/WhatsApp_Image_2023-05-29_at_16.21.38.jpeg?width=225&height=400)
-## Principais Conhecimentos
-
-Meu primeiro contato com programação foi na faculdade, a primeira linguagem que aprendi foi Python nas aulas de LP 1 na faculdade. Atualmente meu foco principal de atuação é o Back-End onde a linguagem que possuo mais “fluência”  é Java, tendo conhecimento para desenvolver web services, utilizar padrões de projetos e  desenvolver sua arquitetura. Também possuo conhecimento em frameworks muito utilizadas em Java como: Quarkus, SpringBoot, Hibernate ORM.
-
-# Projeto 3: 1º Semestre de 2022
-
-### Parceiro Acadêmico
-
-O parceiro do projeto nesse semestre foi a empresa Midall.
-
-<img src="https://user-images.githubusercontent.com/80851038/163725778-498ec2e9-e8eb-45cf-a586-848e5bb1dd97.png" width="300" height="200"/>
-
-
-### Visão do Projeto
+## Visão do Projeto
 
 "Temos um problema para criação de **promoções em um Ecommerce**. Precisamos de uma solução inteligente onde, as mecânicas das promoções sejam feitas de forma flexível e de rápida atualização no sistema." - MidAll.
 
 A ideia era criar um motor de regras com uma interface onde as regras das promoções possam ser cadastradas e aplicadas no momento que os itens forem para o carrinho de compras.
 
-### Tecnologias adotadas na solução
+## Tecnologias adotadas na solução
 
 ### Interface com o usuário
 
@@ -32,7 +16,7 @@ A ideia era criar um motor de regras com uma interface onde as regras das promo�
 
 Segundo a **Mozilla Foundation**, atual nome da antiga **Netscape Communications Corporations**, empresa responsável pela criação do JS, "*JavaScript é uma linguagem de programação, leve, interpretada, orientada a objetos, baseada em protótipos e em first-class functions (funções de primeira classe), mais conhecida como a linguagem de script da Internet.*"
 
-O **jQuery** trata-se de uma biblioteca JavaScript que pode ser adicionada aos projetos de codificação. ****Basicamente, o jQuery permite que os desenvolvedores web conectem recursos de rotina de JavaScript em uma página da web para que possam passar mais tempo focando em recursos complicados que são exclusivos do site.
+O **jQuery** trata-se de uma biblioteca JavaScript que pode ser adicionada aos projetos de codificação. Basicamente, o jQuery permite que os desenvolvedores web conectem recursos de rotina de JavaScript em uma página da web para que possam passar mais tempo focando em recursos complicados que são exclusivos do site.
 
 ### BackEnd
 
@@ -42,7 +26,7 @@ Devido a possibilidade de escrever o código apenas uma vez e rodá-lo em difere
 
 Como linguagem de programação, o código Java é baseado em classes e orientado a objetos, com foco em segurança, portabilidade e alta performance.
 
-### Contribuições pessoais
+## Contribuições pessoais
 
 Minhas contribuições pessoais neste projeto foram principalmente na parte do desenvolvimento do backend e na modelagem e criação do banco de dados. 
 
