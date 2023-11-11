@@ -25,7 +25,7 @@ Durante o projeto, minha principal contribuição consistiu na execução do ext
 
 Posteriormente, após concluir o tratamento dos dados, realizei a criação dos comandos de INSERT dos dados no novo banco que fora criado. Também, desempenhei um papel fundamental na implementação de alguns conceitos da Lei Geral de Proteção de Dados (LGPD) no backend da aplicação. Isso envolveu a elaboração de termos de uso e consentimento, a validação do aceite desses termos e a modificação da permissão concedida.
 
-## Aprendizados Efetivos HS
+###  Aprendizados Efetivos HS
 - Trabalhar com a biblioteca Pandas do Python para extrair, transformar e carregar dados;
 - Utilizar a extensão postGIS do PostgreSQL;
 - Remodelagem e normalização de um banco de dados legado;
