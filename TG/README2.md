@@ -1,29 +1,12 @@
-# Lara Oliveira Leal
+<h1 align="center"> Projeto 2: 2º Semestre de 2021 </h1>
 
-## Introdução
+<div align="center"> Projeto Integrador - 2° Semestre | Fatec Prof. Jessen Vidal - 2023 | Cliente parceiro: Necto Systems </div>
 
-Olá, seja bem-vindo ao meu repositório, meu nome é Lara Oliveira Leal, sou estudante de Banco de Dados na FATEC São José dos Campos - Prof. Jessen Vidal.
-
-![image](https://github.com/lara-leal/bertoti/assets/80706297/36d710c7-b03d-4a32-b0f3-021c1884e1d6)
-
-## Principais Conhecimentos
-
-Meu primeiro contato com programação foi na faculdade, a primeira linguagem que aprendi foi Python nas aulas de LP 1 na faculdade. Atualmente meu foco principal de atuação é o Back-End onde a linguagem que possuo mais “fluência” é Java, tendo conhecimento para desenvolver web services, utilizar padrões de projetos e desenvolver sua arquitetura. Também possuo conhecimento em frameworks muito utilizadas em Java como: Quarkus, SpringBoot, Hibernate ORM.
-
-# Projeto 2: 2º Semestre de 2021
-
-### Parceiro Acadêmico
-
-![Untitled](https://github.com/lara-leal/bertoti/assets/80706297/2a3fc613-5c60-4fa0-94c4-d8410e8e9afb)
-
-
-O parceiro do projeto nesse semestre foi a empresa Necto Systems onde lidamos diretamente com o Diretor, Carlos Eduardo.
-
-### Visão do Projeto
+## Visão do Projeto
 
 Desenvolver um software integrado que monitore e apresente métricas referentes ao uso e a saúde do SGBD em tempo real. Além de oferecer um pós gerenciamento de múltiplos BD’s no servidor, como diferencial.
 
-### Tecnologias adotadas na solução
+## Tecnologias adotadas na solução
 
 ### Java
 
@@ -45,7 +28,7 @@ O SQLite é amplamente utilizado em aplicativos móveis, desktop e em outras apl
 
 Esse projeto não possui interface gráfica pois tinha como objetivo ser executado apenas no terminal.
 
-### Contribuições pessoais
+## Contribuições pessoais
 
 Minhas contribuições  neste projeto foram principalmente na parte extração e implementação de métricas sobre a saúde do banco de dados. 
 
