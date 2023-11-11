@@ -1,15 +1,11 @@
-# Lara Oliveira Leal
-
 ## Introdução
+Olá! Meu nome é Lara Leal, sou de São José dos Campos - SP e tenho 22 anos. Desde de criança sempre fui muito curiosa, algo que me acompanha até hoje. Por conta da curiosidade durante meu Ensino Médio cursei Técnico em Química no CEPHAS (Centro Educacional Hélio Augusto de Souza), terminei meu técnico e logo em seguida foi o ínicio da pandemia, onde tive conhecimento do Vestibular da FATEC e decidi prestar para saber mais sobre o mundo da técnologia, visto que seria online no momento, achei que seria uma ótima oportunidade para ganhar conhecimento durante essa fase.
 
-Olá, seja bem-vindo ao meu repositório, meu nome é Lara Oliveira Leal, sou estudante de Banco de Dados na FATEC São José dos Campos - Prof. Jessen Vidal.
+Meu primeiro contato com programação foi na faculdade, a primeira linguagem que aprendi foi Python nas aulas de LP 1 na faculdade. Atualmente meu foco principal de atuação é o Back-End e Ciência de Dados, as linguagens que possuo mais "fluência" são Python e Java, tendo conhecimento para desenvolver web services, utilizar padrões de projetos e desenvolver sua arquitetura. Também possuo conhecimento em frameworks muito utilizadas no mercado como: Quarkus, SpringBoot e Flask.
+
+Atualmente sou Analista de Sistemas na Farma Conde, onde atuo principalmente com levantamento de requisitos, arquitetura e modelagem de banco de dados e desenvolvimento de automatizações de processos. 
 
 ![Untitled](https://media.discordapp.net/attachments/888964389368131629/1112824544814702602/als.png)
-
-## Principais Conhecimentos
-
-Meu primeiro contato com programação foi na faculdade, a primeira linguagem que aprendi foi Python nas aulas de LP 1 na faculdade. Atualmente meu foco principal de atuação é o Back-End onde a linguagem que possuo mais “fluência” é Java, tendo conhecimento para desenvolver web services, utilizar padrões de projetos e desenvolver sua arquitetura. Também possuo conhecimento em frameworks muito utilizadas em Java como: Quarkus, SpringBoot, Hibernate ORM.
-
 # Projeto 1: 1º Semestre de 2021
 
 ### Parceiro Acadêmico
