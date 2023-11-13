@@ -55,6 +55,8 @@ Fui a responsável pelo desenvolvimento das seguintes funções da nossa assiste
 <details>
 <summary> Cálculo de média </summary>
 
+Através de comandos de voz, a aplicação pergunta ao usuário a matéria desejada e realiza uma consulta SQL. Em seguida, calcula a média com base em valores específicos das colunas do resultado da consulta e informa o resultado ao usuário por voz.
+
 ![Untitled](https://media.discordapp.net/attachments/888964389368131629/1112808901230985288/media.png?width=1025&height=370)
 </details>
 
