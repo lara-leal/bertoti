@@ -22,10 +22,76 @@ O PostGIS é uma extensão do PostgreSQL para lidar com dados geoespaciais em ba
 
 ## Contribuições Pessoais
 Durante o projeto, minha principal contribuição consistiu na execução do extração, tratamento e carregamento de dados. O cliente nos forneceu os dados do banco por meio de arquivos .csv, juntamente com a modelagem atual do banco de dados. Inicialmente, realizei uma análise da modelagem, procedendo com a normalização e remodelagem do banco. Após essa fase, me dediquei ao tratamento dos dados, utilizando a biblioteca Pandas para filtrar exclusivamente as informações relacionadas à cultura de SOJA, uma vez que esses dados eram cruciais para atender às exigências da regra de negócio de nossa aplicação.
+````
+import pandas as pd
+produtos = pd.read_csv(r'../../data/Produto.csv', encoding='ISO-8859-1')
+soja = produtos[produtos['DESCRICAO'] == 'SOJA']`
 
-Posteriormente, após concluir o tratamento dos dados, realizei a criação dos comandos de INSERT dos dados no novo banco que fora criado. Também, desempenhei um papel fundamental na implementação de alguns conceitos da Lei Geral de Proteção de Dados (LGPD) no backend da aplicação. Isso envolveu a elaboração de termos de uso e consentimento, a validação do aceite desses termos e a modificação da permissão concedida.
+empreendimento = pd.read_csv(r'../../data/Empreendimento.csv', sep=';', encoding='ISO-8859-1')
+cod_empreendimento =  empreendimento[empreendimento['PRODUTO'] == 'SOJA']
+
+sicor_cop_basico = pd.read_csv("C:/Users/leall/OneDrive/Área de Trabalho/02_TABS_BASICAS_OPERACAO_CREDITO_RURAL_PROAGRO_RECURSOS_PUBLICOS_PRIVADOS/SICOR_COP_BASICO.csv", sep=';', encoding='ISO-8859-1')
+sicor_cop_basico = sicor_cop_basico.drop(columns=['DT_FIM_COLHEITA', 'DT_FIM_PLANTIO', 'DT_INICIO_PLANTIO', 'DT_INICIO_COLHEITA'])
+
+merged = ref_bacen.merge(sicor_cop_basico, on=['REF_BACEN', 'NU_ORDEM'], how='inner')
+
+glebas = pd.read_csv(r'C:/Users/leall/OneDrive/Área de Trabalho/03_TABS_COMP_BASICAS_OPERACOES_CREDITO_RURAL_PROAGRO_RECURSOS_PUB/Glebas.csv', sep=';', encoding='ISO-8859-1')
+glebas_soja = glebas[(glebas['REF_BACEN'].isin(set(merged['REF_BACEN']))) & (glebas['NU_ORDEM'].isin(set(merged['NU_ORDEM'])))]
+````
+
+
+
+
+
+Posteriormente, após concluir o tratamento dos dados, realizei a criação dos comandos de INSERT dos dados no novo banco que fora criado.
+````
+with open('C:/Users/leall/OneDrive/Área de Trabalho/api-lara/GeoForesight-back/database/insert_postgres/insert_op.sql', 'w') as file:
+
+    for index, row in df.iterrows():
+        ref_bacen = str(row['ref_bacen'])
+        nu_ordem = str(row['nu_ordem'])
+        inicio_plantio = row['inicio_plantio']
+        final_plantio = row['final_plantio']
+        inicio_colheita = row['inicio_colheita']
+        final_colheita = row['final_colheita']
+        data_vencimento = row['data_vencimento']
+        idempreendimento = row['idempreendimento']
+        idevento = row['idevento']
+        idsolo = row['idsolo']
+        idirrigacao = row['idirrigacao']
+        idciclo = row['idciclo']
+        idgrao = row['idgrao']
+        idcultivar = row['idcultivar']
+        idprograma = row['idprograma']
+        estado = row['estado']
+
+        
+        dataframe = query = f"INSERT INTO PUBLIC.operacao_credito_estadual(ref_bacen, nu_ordem, inicio_plantio, final_plantio, inicio_colheita, final_colheita, data_vencimento, idempreendimento, idevento, idsolo, idirrigacao, idciclo, idgrao, idcultivar, idprograma, estado) VALUES ('{ref_bacen}', '{nu_ordem}', '{inicio_plantio}', '{final_plantio}', '{inicio_colheita}', '{final_colheita}', '{data_vencimento}', {idempreendimento}, {idevento}, {idsolo}, {idirrigacao}, {idciclo}, {idgrao}, {idcultivar}, {idprograma}, '{estado}');\n"
+        file.write(query)
+````
+
+Também, desempenhei um papel fundamental na implementação de alguns conceitos da Lei Geral de Proteção de Dados (LGPD) no backend da aplicação. Isso envolveu a elaboração de termos de uso e consentimento, a validação do aceite desses termos e a modificação da permissão concedida.
+
+````
+@app.route('/verificar_aceitacao', methods=['GET'])
+@jwt_required()
+def verificar_aceitacao():
+    current_user = get_jwt_identity()
+    ultimo_termo = termos.query.order_by(termos.data.desc()).first()
+
+    if ultimo_termo:
+        aceitacao = aceitacao_usuario.query.filter_by(id_user=current_user, id_termo=ultimo_termo.id).first()
+        if aceitacao:
+            return jsonify({'message': 'Último termo já aceito'}), 201
+        else:
+            return jsonify({'message': 'O último termo não foi aceito'}), 404
+    else:
+        return jsonify({'message': 'Nenhum termo encontrado'}), 404
+
+````
 
 ###  Aprendizados Efetivos HS
 - Trabalhar com a biblioteca Pandas do Python para extrair, transformar e carregar dados;
 - Utilizar a extensão postGIS do PostgreSQL;
 - Remodelagem e normalização de um banco de dados legado;
+- Trabalhar com Flask para desenvolvimento do backend da aplicação;
