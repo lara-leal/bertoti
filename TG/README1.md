@@ -57,13 +57,76 @@ Fui a responsável pelo desenvolvimento das seguintes funções da nossa assiste
 
 Através de comandos de voz, a aplicação pergunta ao usuário a matéria desejada e realiza uma consulta SQL. Em seguida, calcula a média com base em valores específicos das colunas do resultado da consulta e informa o resultado ao usuário por voz.
 
-![Untitled](https://media.discordapp.net/attachments/888964389368131629/1112808901230985288/media.png?width=1025&height=370)
+```` if there_exists(["calcule a média", "mostrar média", "visualizar média"]):
+        speak("Para qual matéria gostaria de calcular sua média ")
+        vsqlin = " SELECT * FROM GERAL"
+        res = consulta(vcon, vsqlin)
+        materias_media = []
+        for result in res:
+            materias_media.append(result[1])
+        voice = record_audio().strip().lower()
+        index_media = materias_media.index(voice)
+        if voice in materias_media:
+            if res[index_media][4] != -1 or res[index_media][5] != -1 or res[index_media][6] != \
+                    -1 or res[index_media][7] != -1:
+                media = (res[index_media][4] + res[index_media][5] + res[index_media][6] + res[index_media][7]) / 4
+                speak(f'a média para a matéria "{voice}" é: {media}')
+            else:
+                speak('Não foi possível calcular sua média, tente cadastrar todas suas notas e tente novamente!')
+        else:
+            speak('Não encontrei essa matéria no meu banco de dados, para criar uma nova matéria basta dizer '
+                  '"Cadastrar Matéria" ')
+            return record_audio()
+````
 </details>
 
 <details>
 <summary> Controle de faltas </summary>
 
-![Untitled](https://media.discordapp.net/attachments/888964389368131629/1112808900920619088/faltas.png?width=536&height=401)
+A lógica implementada foi fazer a aplicação verificar se o usuário quer registrar, adicionar ou remover faltas. Solicita a matéria e a quantidade de faltas desejada, realizando as operações necessárias no banco de dados. 
+
+````
+if there_exists(["registrar faltas", "anotar faltas", "adicionar faltas", "cadastrar faltas",
+                     "cadastrar falta", "registrar falta", "anotar falta"]):
+        try:
+            vsqlin = " SELECT * FROM GERAL"
+            res = consulta(vcon, vsqlin)
+            materias_faltas = []
+            for result in res:
+                materias_faltas.append(result[1])
+            speak('Para qual matéria gostaria de registrar suas faltas?')
+            fal = record_audio().strip().lower().split()
+            if fal[0] in materias_faltas:
+                index = materias_faltas.index(fal[0])
+                if res[index][8] == -1:
+                    speak(f'quantas faltas gostaria de registrar para a matéria: "{fal[0]}"')
+                    int_faltas = record_audio().strip()
+                    update("FALTAS", int(int_faltas), res[index][8])
+                else:
+                    speak(' Voce deseja "somar" ou "remover" suas faltas ?')
+                    resp = record_audio().strip().lower()
+                    if resp == "somar":
+                        speak('Para qual matéria gostaria de adicionar suas faltas?')
+                        fal = record_audio().strip().lower().split()
+                        if fal[0] in materias_faltas:
+                            speak(f'Quantas faltas gostaria de adicionar para a matéria: "{fal[0]}"')
+                            int_faltas = record_audio().strip()
+                            index = materias_faltas.index(fal[0])
+                            update("FALTAS", int(int_faltas) + res[index][8], res[index][8])
+                        else:
+                            speak('Não encontrei essa matéria no meu banco de dados, para criar uma nova matéria '
+                                  'basta dizer "Cadastrar Matéria" ')
+                    if resp == "remover":
+                        speak('Para qual matéria gostaria de remover suas faltas ?')
+                        fal = record_audio().strip().lower().split()
+                        if fal[0] in materias_faltas:
+                            speak(f'Quantas faltas gostaria de remover para a matéria: "{fal[0]}"')
+                            int_faltas = record_audio().strip()
+                            index = materias_faltas.index(fal[0])
+                            update("FALTAS", res[index][8] - int(int_faltas), res[index][8])
+````
+
+
 </details>
 
 ### Aprendizados Efetivos HS
