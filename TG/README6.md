@@ -76,7 +76,7 @@ with open('C:/Users/leall/OneDrive/Área de Trabalho/api-lara/GeoForesight-back/
         file.write(query)
 ````
 
-Também, desempenhei um papel fundamental na implementação de alguns conceitos da Lei Geral de Proteção de Dados (LGPD) no backend da aplicação. Isso envolveu a elaboração de termos de uso e consentimento, a validação do aceite desses termos e a modificação da permissão concedida.
+Desempenhei um papel fundamental na implementação de alguns conceitos da Lei Geral de Proteção de Dados (LGPD) no backend da aplicação. Isso envolveu a elaboração de termos de uso e consentimento, a validação do aceite desses termos e a modificação da permissão concedida.
 
 ````
 @app.route('/verificar_aceitacao', methods=['GET'])
@@ -96,6 +96,32 @@ def verificar_aceitacao():
 
 ````
 
+Também tive a oportunidade de aprender como utilizar a extensão postGIS do PostgreSQL, que cria primeiramente tabelas com colunas espaciais, e entender como é feito um insert de dados geográficos. Por exemplo, na criação da coluna "coordenadas" é utilizado o tipo geography(Point,4326), que é utilizado para armazenar informações geográficas no formato Point usando o sistema de referência espacial WGS 84 (SRID 4326). 
+
+````
+CREATE TABLE IF NOT EXISTS public.glebas
+(
+    idgleba integer SERIAL,
+    ref_bacen numeric,
+    nu_ordem numeric,
+    longitude character varying(255) COLLATE pg_catalog."default",
+    latitude character varying(255) COLLATE pg_catalog."default",
+    coordenadas geography(Point,4326),
+    altitude numeric,
+    nu_ponto numeric,
+    nu_identificador numeric,
+    nu_indice numeric,
+    CONSTRAINT glebas_pkey PRIMARY KEY (idgleba),
+    CONSTRAINT glebas_ref_bacen_nu_ordem_fkey FOREIGN KEY (nu_ordem, ref_bacen)
+        REFERENCES public.operacao_credito_estadual (nu_ordem, ref_bacen) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+````
+Já para criar um insert é necessário utilizar a função ST_GeogFromText que cria um ponto em um espaço bidimensional usando as coordenadas, gerando um dado geográfico.
+````
+INSERT INTO PUBLIC.GLEBAS(REF_BACEN,  NU_ORDEM, LONGITUDE, LATITUDE,  COORDENADAS, ALTITUDE, NU_PONTO,NU_IDENTIFICADOR) VALUES('513678782','1',-52.2909909,-27.7581412,ST_GeogFromText('POINT(-52.2909909 -27.7581412)'),0,29,1);
+````
 ###  Aprendizados Efetivos HS
 - Trabalhar com a biblioteca Pandas do Python para extrair, transformar e carregar dados;
 - Utilizar a extensão postGIS do PostgreSQL;
