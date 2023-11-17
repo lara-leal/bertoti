@@ -24,7 +24,7 @@ O PostGIS é uma extensão do PostgreSQL para lidar com dados geoespaciais em ba
 Durante o projeto, minha principal contribuição consistiu na execução do extração, tratamento e carregamento de dados. O cliente nos forneceu os dados do banco por meio de arquivos .csv, juntamente com a modelagem atual do banco de dados. Inicialmente, realizei uma análise da modelagem, procedendo com a normalização e remodelagem do banco. 
 
 
-<img src="https://i.ibb.co/2YPHhH2/mer-2.png" alt="mer-2" border="0"></a>
+<img src="https://i.ibb.co/2hyqpXV/mer-3.png" alt="mer-3" border="0">
 
 
 Após essa fase, me dediquei ao tratamento dos dados, utilizando a biblioteca Pandas para filtrar exclusivamente as informações relacionadas à cultura de SOJA, uma vez que esses dados eram cruciais para atender às exigências da regra de negócio de nossa aplicação.
