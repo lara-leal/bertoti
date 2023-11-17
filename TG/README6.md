@@ -83,16 +83,34 @@ Desempenhei um papel fundamental na implementação de alguns conceitos da Lei G
 @jwt_required()
 def verificar_aceitacao():
     current_user = get_jwt_identity()
-    ultimo_termo = termos.query.order_by(termos.data.desc()).first()
 
-    if ultimo_termo:
-        aceitacao = aceitacao_usuario.query.filter_by(id_user=current_user, id_termo=ultimo_termo.id).first()
-        if aceitacao:
-            return jsonify({'message': 'Último termo já aceito'}), 201
-        else:
-            return jsonify({'message': 'O último termo não foi aceito'}), 404
+    query = text("""
+        SELECT id_user, au.id_termo , data_aceitacao, au.aceite
+            FROM aceitacao_usuario AS au
+            join public.user as u on u.id = au.id_user 
+            WHERE au.aceite = True
+            AND au.data_aceitacao = ( SELECT MAX(data_aceitacao)
+            FROM aceitacao_usuario
+            WHERE id_user = au.id_user);
+    """)
+
+    result = db.session.execute(query, {'current_user': current_user})
+
+    
+    termos_aceitos = []
+    for row in result:
+        termos_aceitos.append({
+            'id_user': row[0],
+            'id_termo': row[1],
+            'data_aceitacao': row[2].isoformat(),
+            'aceite': row[3]
+        })
+    print(termos_aceitos)
+
+    if termos_aceitos:
+        return jsonify({'termos_aceitos': termos_aceitos})
     else:
-        return jsonify({'message': 'Nenhum termo encontrado'}), 404
+        return jsonify({'message': 'Nenhum termo aceito encontrado'}), 404
 
 ````
 
