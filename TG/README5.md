@@ -142,8 +142,16 @@ MAXX (
     [tipo_arquivo]
 )
 ```
+
  </details>
- 
+
+Também nesse semestre atuei como Product Owner, onde fui responsável por realizar a prototipagem da aplicação utilizando a ferramenta Figma para que o cliente aprovasse o design da aplicação e validar se tinhamos entendido o desafio da maneira correta. Durante as sprints fui responsável por realizar a negociação da entregas, visando solucionar a dor do cliente e criar entregas possíveis para nosso time. 
+
+<img src="https://i.ibb.co/zfLLfdW/image.png" alt="image" border="0"></a>
+
+Outro tópico que tive como responsabilidade foi implementar o Issue Controll para que  as "issues" fossem usadas para rastrear tarefas, melhorias, bugs e discussões em nosso repositório. 
+
+
  ### Aprendizados Efetivos HS
  - Trabalhar com ferramentas da AWS; 
  - Utilizar Google drive API;
