@@ -4,17 +4,17 @@
 
 ## Visão do Projeto
 
-Desenvolver um software integrado que monitore e apresente métricas referentes ao uso e a saúde do SGBD em tempo real. Além de oferecer um pós gerenciamento de múltiplos BD’s no servidor, como diferencial.
+Um software integrado que monitore e apresente métricas referentes ao uso e a saúde do SGBD em tempo real. Além de oferecer um pós gerenciamento de múltiplos BD’s no servidor, como diferencial.
 
 ## Tecnologias adotadas na solução
 
 ### Java
 
-Java é uma linguagem de programação orientada a objetos que foi criada na década de 1990 pela Sun Microsystems, e atualmente é propriedade da Oracle Corporation. É uma das linguagens de programação mais populares do mundo, usada em uma ampla variedade de aplicativos e sistemas, desde desenvolvimento de aplicativos desktop e web até jogos e dispositivos móveis.
+Java é uma linguagem de programação orientada a objetos que foi criada na década de 1990 pela Sun Microsystems, e é propriedade da Oracle Corporation. É uma das linguagens de programação mais populares do mundo usada em uma ampla variedade de aplicativos e sistemas, desde desenvolvimento de aplicativos desktop e web até jogos e dispositivos móveis.
 
 ### PostgreSQL
 
-PostgreSQL é um sistema de gerenciamento de banco de dados relacional (SGBDR) de código aberto e altamente confiável. Ele é amplamente conhecido por sua robustez, escalabilidade e recursos avançados que o tornam uma escolha popular para uma variedade de aplicações.
+PostgreSQL é um sistema de gerenciamento de banco de dados relacional (SGBDR) de código aberto e altamente confiável. É amplamente conhecido por sua robustez, escalabilidade e recursos avançados que o tornam uma escolha popular para uma variedade de aplicações.
 
 Uma das principais características do PostgreSQL é sua capacidade de suportar grandes volumes de dados e cargas de trabalho intensivas.
 
@@ -22,7 +22,7 @@ Uma das principais características do PostgreSQL é sua capacidade de suportar 
 
 O SQLite é um banco de dados embutido, rápido e leve que não requer um servidor separado para funcionar. Diferente dos bancos de dados tradicionais, o SQLite armazena todo o banco de dados em um único arquivo, tornando-o fácil de implantar e usar em aplicativos.
 
-O SQLite é amplamente utilizado em aplicativos móveis, desktop e em outras aplicações que precisam de um banco de dados local. Ele é escrito em linguagem C e disponibiliza uma interface simples através de comandos SQL para executar operações de banco de dados, como criação de tabelas, inserção, atualização, exclusão e consulta de dados.
+O SQLite é amplamente utilizado em aplicativos móveis, desktop e em outras aplicações que precisam de um banco de dados local e escrito em linguagem C e disponibiliza uma interface simples através de comandos SQL para executar operações de banco de dados, como criação de tabelas, inserção, atualização, exclusão e consulta de dados.
 
 ### Interface com o usuário
 
@@ -38,11 +38,11 @@ Para extrair as métricas utilizei como referencia um artigo **“Extraindo Meta
 - pg_stat_database
 - information_schema.tables
 
-A maior parte do esforço desse semestre foi encontrar documentação que nos instruísse como extrair as métricas sobre a saúde do SGBD e como elaborar as querys. 
+A maior parte do esforço desse semestre foi encontrar documentação que me instruísse como extrair as métricas sobre a saúde do SGBD e como elaborar as querys. 
 
-Como estávamos no 2º semestre, ainda não tínhamos experiência efetiva em elaborar querys que fossem bem estruturadas. Então a maior parte do desenvolvimento foi constituído por isso. 
+Como eu estava no 2º semestre, ainda não tinha experiência efetiva em elaborar querys que fossem bem estruturadas. Então a maior parte do desenvolvimento foi constituído por isso. 
 
-Também utilizamos Java como linguagem de programação da aplicação, que também foi um desafio visto que durante esse projeto foi a primeira vez que tivemos contato com a linguagem. 
+Também utilizei Java como linguagem de programação da aplicação, que também foi um desafio visto que durante esse projeto foi a primeira vez que tive contato com a linguagem. 
 
 Desenvolvi a conexão do banco de dados utilizando o SQLite, com nosso “historico.db”. como o trecho de código a seguir: 
 
@@ -62,7 +62,7 @@ mainClass  con = new mainClass ("postgres");
 }
 ```
 
-O banco que usamos para realizar o monitoramento foi um banco PostgreSQL.
+O banco que usei para realizar o monitoramento foi um banco PostgreSQL.
 
 ### Aprendizados Efetivos HS
 
