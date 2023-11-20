@@ -16,23 +16,23 @@ Atualmente, trabalho como Analista de Sistemas na Farma Conde. Minhas principais
 
 ## Visão do Projeto
 
-Com o propósito de trazer para os estudantes em geral uma forma mais centralizada e organizada de cuidar da vida acadêmica e se manter atualizado em suas atividades, criamos a Athena- Assistente Pessoal de Estudos. O seu diferencial é reunir diversas ferramentas úteis em um único lugar.
+Com o propósito de trazer para os estudantes, em geral, uma forma mais centralizada e organizada de cuidar da vida acadêmica e se manter atualizado em suas atividades, criamos a Athena- Assistente Pessoal de Estudos. O seu diferencial é reunir diversas ferramentas úteis em um único lugar.
 
 ## Tecnologias adotadas na solução
 
 ### Python
 
-Python é uma linguagem de programação popular que foi criada na década de 1990 por Guido van Rossum. É conhecida por sua sintaxe simples e fácil de ler, o que a torna uma ótima escolha para iniciantes em programação. Python é usado em muitas áreas diferentes, incluindo ciência de dados, desenvolvimento web, automação de tarefas, inteligência artificial e muito mais. É uma linguagem interpretada, o que significa que o código é executado linha por linha sem a necessidade de compilação. Além disso, Python é uma linguagem de programação de alto nível, o que significa que é mais próxima da linguagem humana do que de uma linguagem de máquina, tornando a programação em Python mais intuitiva e acessível para muitas pessoas.
+Python é uma linguagem de programação popular que foi criada na década de 1990 por Guido van Rossum. É conhecida por sua sintaxe simples e de fácil leitura, o que a torna uma ótima escolha para iniciantes em programação. Python é usada em muitas áreas diferentes, incluindo ciência de dados, desenvolvimento web, automação de tarefas, inteligência artificial e dentre outras. É uma linguagem interpretada, o que significa que o código é executado linha por linha sem a necessidade de compilação. Além disso, Python é uma linguagem de programação de alto nível, o que significa que é mais próxima da linguagem humana do que de uma linguagem de máquina, tornando a programação em Python mais intuitiva e acessível para muitas pessoas.
 
 ### **SQLite**
 
-SQLite é um sistema de gerenciamento de banco de dados relacional que é fácil de usar e não requer uma configuração complexa. Ele é conhecido por sua portabilidade, confiabilidade e eficiência, e é usado em muitas aplicações em dispositivos móveis e de desktop. O SQLite é incorporado diretamente em muitos aplicativos e sistemas operacionais, o que significa que não é necessário instalar nenhum software adicional para usar bancos de dados SQLite. Ele é executado em um único arquivo, tornando-o ideal para pequenos projetos ou para aplicações que não requerem uma grande quantidade de dados. Além disso, o SQLite é compatível com SQL, o que significa que você pode usar as mesmas consultas SQL que você usaria em outros sistemas de gerenciamento de banco de dados relacionais, como o MySQL ou o PostgreSQL.
+SQLite é um sistema de gerenciamento de banco de dados relacional que é fácil de usar e não requer uma configuração complexa. Um sistema conhecido por sua portabilidade, confiabilidade e eficiência e usado em muitas aplicações em dispositivos móveis e de desktop. O SQLite é incorporado diretamente em muitos aplicativos e sistemas operacionais, o que significa que não é necessário instalar nenhum software adicional para usar bancos de dados SQLite. Executado em um único arquivo, tornando-o ideal para pequenos projetos ou para aplicações que não requerem uma grande quantidade de dados. Além disso, o SQLite é compatível com SQL, possibilitando usar as mesmas consultas SQL que você usaria em outros sistemas de gerenciamento de banco de dados relacionais, como o MySQL ou o PostgreSQL.
 
 ### SpeechRecognition
 
-A biblioteca SpeechRecognition é uma ferramenta de reconhecimento de fala para a linguagem de programação Python. Com ela, é possível capturar e converter áudio em texto, tornando a interação com aplicativos mais intuitiva e acessível.
+A biblioteca SpeechRecognition é uma ferramenta de reconhecimento de fala para a linguagem de programação Python. Com essa ferramenta, é possível capturar e converter áudio em texto, tornando a interação com aplicativos mais intuitiva e acessível.
 
-Com essa biblioteca, é possível desenvolver aplicativos que utilizam a fala como entrada de dados, como assistentes virtuais, sistemas de controle de voz, transcrições de áudio, entre outros. A biblioteca SpeechRecognition simplifica muito a tarefa de processar áudio em texto, permitindo que desenvolvedores implementem recursos de reconhecimento de fala em suas aplicações de forma rápida e fácil.
+Também, é possível desenvolver aplicativos que utilizam a fala como entrada de dados, como assistentes virtuais, sistemas de controle de voz, transcrições de áudio, entre outros. A biblioteca SpeechRecognition simplifica muito a tarefa de processar áudio em texto, permitindo que desenvolvedores implementem recursos de reconhecimento de fala em suas aplicações de forma rápida e fácil.
 
 ### Interface com o usuário
 
