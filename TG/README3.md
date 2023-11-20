@@ -68,4 +68,4 @@ Já no front-End o aprendizado foi limitado pois não foi o foco de desenvolvime
 - Requisição GET, POST, PUT, DELETE;
 - Organizar a arquitetura do projeto de forma correta;
 - Usar lógica de programação para desenvolver regras para criação de promoções;
-- Desenvolver aplicações utilizando frameworks de REST API: Sei fazer com autonomia;
+- Desenvolver aplicações utilizando frameworks de REST API;
