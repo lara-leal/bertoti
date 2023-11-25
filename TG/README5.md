@@ -163,7 +163,44 @@ Além disso, desempenhei um papel crucial na implementação do Controle de Issu
 
 
  ### Aprendizados Efetivos HS
- - Trabalhar com ferramentas da AWS; 
- - Utilizar Google drive API;
- - Entender insights de metadados para elaboração de dashboard de monitoramento;
+
+Ao desenvolver esse projeto, tive diversas evoluções técnicas como explorar novas tecnologias, proporcionando um amplo espaço para aprendizado. Algumas das principais experiências incluíram: 
+
+
+| Hard Skills                           | Nota (0-5) |
+|--------------------------------------|-------------|
+| Entender insights de metadados   | ★★★★★ |
+| Elaborar dashboard de monitoramento   |★★★★★|
+| Metodologia Ágil - Scrum             | ★★★★☆ |
+| Trabalhar com ferramentas da AWS         |★★★★☆|
+| Power BI |★★★★☆ |
+| Utilizar Google drive API             |★★★☆☆|
+
+<br></br>
+
+
+Desenvolvi e aprimorei minhas habilidades interpessoais, as chamadas Soft Skills, que irei detalhar a seguir:
+
+- Resiliência
+  
+Trabalha em ser resiliente foi fundamental diante dos desafios enfrentados. Enfrentar situações difíceis exigiu a capacidade de me adaptar, superar obstáculos e manter um equilíbrio positivo.
+
+- Comunicação Assertiva
+  
+Durante o desenvolvimento do projeto, acredito que evolui muito em saber como realizar uma comunicação assertiva, tive a oportunidade de trabalhar como Product Owner, onde tive aprender ainda mais a ter uma comunicação clara  e  de fácil compreensão para transmitir para o cliente nosso entendimento do desafio e propor a solução elaborada, para que ao longo do projeto as mudanças necessárias fossem apenas por conta da necessidade do projeto e não por falta de entendimento.
+  
+- Evolução do trabalho em equipe
+  
+Por ter um papel fundamental no desenvolvimento do projeto, foi fundamental que eu e o restante do time estivessemos alinhados para que o produto final fosse entregue como o esperado, precisei transmitir a idéia de solução que tive, discutir o escopo do projeto e debater opiniões em relação a funcionalidades, design e etc.
+
+- Visão de negócio
+
+Minha habilidade de organização e planejamento desempenhou um papel crucial ao assumir as funções de Product Owner. Tais responsabilidades demandaram uma gestão eficiente do backlog do produto, a definição clara de requisitos e uma colaboração próxima com as partes interessadas.
+
+
+
+
+
+  
+
 
