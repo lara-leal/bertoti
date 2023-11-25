@@ -146,8 +146,8 @@ MAXX (
     [tipo_arquivo]
 )
 ```
+</details>
 
- </details>
  <details>
 <summary> Desenvolvimento de protótipos da aplicação </summary>
 <br></br>
@@ -155,7 +155,7 @@ Também, desempenhei o papel de Product Owner, onde fui responsáve pela prototi
 <br></br>
 <img src="https://i.ibb.co/g7JB5w8/image.png"></a>
 
- </details>
+</details>
 
 Além disso, desempenhei um papel crucial na implementação do Controle de Issues, uma iniciativa que possibilitou a utilização eficiente das "issues" para rastrear diversas dimensões do nosso projeto em nosso repositório. Essa ferramenta tornou-se fundamental para a gestão de tarefas, acompanhamento de melhorias, identificação e resolução de bugs, e facilitou discussões colaborativas entre os membros da equipe. Através do Issue Controll, conseguimos aprimorar a transparência, promover a colaboração e garantir um processo mais estruturado de gestão de projeto.
 
