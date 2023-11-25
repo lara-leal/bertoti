@@ -99,10 +99,14 @@ A parte mais desafiadora, foi compreender o funcionamento da API do Google pois 
 
  <details>
   <summary> Desenvolvimento da dashboard </summary>
+	  <br></br>
 	 <img src="https://github.com/lara-leal/bertoti/assets/80706297/40392e65-11b5-4b75-891f-4845bd49b066"/>
 	 <br></br>
-	 Durante o desenvolvimento da dashboard, pude utilizar diferentes  recursos como o DAX do power BI com campos calculados, para armazenar e extrair informações como, tamanho do arquivo compartilhado e o tipo de arquivo mais compartilhado através da ferramenta.
-  	 <br></br>
+Durante a fase de desenvolvimento da dashboard, aproveitei vários recursos, incluindo o DAX (Data Analysis Expressions) do Power BI, incorporando campos calculados para otimizar a análise de dados.
+<br></br>
+	 
+A utilização foi estratégica para realizar cálculos avançados, contribuindo significativamente para a funcionalidade da dashboard. Os campos calculados foram especialmente úteis ao capturar métricas importantes, como o tamanho médio do arquivo compartilhado e a identificação do tipo de arquivo mais frequentemente compartilhado, os mesmos, foram projetados para proporcionar insights imediatos, facilitando a interpretação dos resultados e oferecendo uma visão abrangente do desempenho do serviço.
+<br></br>
 
 
 ``` 
@@ -144,12 +148,16 @@ MAXX (
 ```
 
  </details>
+ <details>
+<summary> Desenvolvimento de protótipos da aplicação </summary>
+<br></br>
+Também, desempenhei o papel de Product Owner, onde fui responsáve pela prototipagem da aplicação com a utilização da ferramenta Figma. Minhas responsabilidades incluíram a obtenção da aprovação do cliente para o design da aplicação e a validação de eventuais ajustes ao longo do projeto. Durante as sprints, assumi a responsabilidade de negociar as entregas, buscando equilíbrio entre as necessidades do cliente e o cronograma de execução da equipe.
+<br></br>
+<img src="https://i.ibb.co/g7JB5w8/image.png"></a>
 
-Também nesse semestre atuei como Product Owner, onde fui responsável por realizar a prototipagem da aplicação utilizando a ferramenta Figma para que o cliente aprovasse o design da aplicação e validar eventuais mudanças ao longo do projeto. Durante as sprints fui responsável por realizar a negociação da entregas, visando encontrar um equilíbrio entre a necessidade do cliente e o tempo de execução do time. 
+ </details>
 
-<img src="https://i.ibb.co/zfLLfdW/image.png" alt="image" border="0"></a>
-
-Outro tópico que tive como responsabilidade foi implementar o Issue Controll para que  as "issues" fossem usadas para rastrear tarefas, melhorias, bugs e discussões em nosso repositório. 
+Além disso, desempenhei um papel crucial na implementação do Controle de Issues, uma iniciativa que possibilitou a utilização eficiente das "issues" para rastrear diversas dimensões do nosso projeto em nosso repositório. Essa ferramenta tornou-se fundamental para a gestão de tarefas, acompanhamento de melhorias, identificação e resolução de bugs, e facilitou discussões colaborativas entre os membros da equipe. Através do Issue Controll, conseguimos aprimorar a transparência, promover a colaboração e garantir um processo mais estruturado de gestão de projeto.
 
 
  ### Aprendizados Efetivos HS
