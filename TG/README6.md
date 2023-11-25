@@ -84,14 +84,16 @@ Desempenhei um papel fundamental na implementação de alguns conceitos da Lei G
 def verificar_aceitacao():
     current_user = get_jwt_identity()
 
-    query = text("""
-        SELECT id_user, au.id_termo , data_aceitacao, au.aceite
-            FROM aceitacao_usuario AS au
-            join public.user as u on u.id = au.id_user 
+    query = text(f"""
+         SELECT id_user, au.id_termo, tt.id_tipo, tt.tipo_desc ,data_aceitacao, au.aceite
+FROM aceitacao_usuario AS au
+join public.user as u on u.id = au.id_user 
+JOIN termos AS t ON t.id = au.id_termo
+JOIN tipo_termos AS tt ON tt.id_tipo = tt.id_tipo
             WHERE au.aceite = True
             AND au.data_aceitacao = ( SELECT MAX(data_aceitacao)
             FROM aceitacao_usuario
-            WHERE id_user = au.id_user);
+            WHERE id_user =:current_user);
     """)
 
     result = db.session.execute(query, {'current_user': current_user})
@@ -102,8 +104,10 @@ def verificar_aceitacao():
         termos_aceitos.append({
             'id_user': row[0],
             'id_termo': row[1],
-            'data_aceitacao': row[2].isoformat(),
-            'aceite': row[3]
+            'id_tipo': row[2],
+            'tipo_desc': row[3],
+            'data_aceitacao': row[4].isoformat(),
+            'aceite': row[5]
         })
     print(termos_aceitos)
 
