@@ -21,11 +21,22 @@ PostgreSQL é um sistema de gerenciamento de banco de dados relacional (SGBDR) d
 O PostGIS é uma extensão do PostgreSQL para lidar com dados geoespaciais em bancos de dados relacionais. Ele permite armazenar, consultar e analisar informações de localização, sendo essencial para sistemas de informação geográfica (SIG) e análises territoriais, oferecendo operações complexas e indexação espacial para eficiência na manipulação de dados geográficos.
 
 ## Contribuições Pessoais
+
+ <details>
+<summary> Modelagem do banco de dados </summary>
+<br></br>
+     
 Durante o projeto, minha principal contribuição consistiu na execução do extração, tratamento e carregamento de dados. O cliente nos forneceu os dados do banco por meio de arquivos .csv, juntamente com a modelagem atual do banco de dados. Inicialmente, realizei uma análise da modelagem, procedendo com a normalização e remodelagem do banco, focando em trazer apenas informações que fossem relevantes para o negócio. 
 
-
+<br></br>
 <img src="https://i.ibb.co/2hyqpXV/mer-3.png" alt="mer-3" border="0">
 
+</details>
+
+
+ <details>
+<summary> Tratamento de dados </summary>
+<br></br>
 
 Após essa fase, me dediquei ao tratamento dos dados, utilizando a biblioteca Pandas para filtrar exclusivamente as informações relacionadas à cultura de SOJA, uma vez que esses dados eram cruciais para atender às exigências da regra de negócio de nossa aplicação.
 ````
@@ -46,8 +57,12 @@ glebas_soja = glebas[(glebas['REF_BACEN'].isin(set(merged['REF_BACEN']))) & (gle
 ````
 
 
+</details>
 
-
+ <details>
+<summary> Criação de inserts e inserts de dados </summary>
+<br></br>
+     
 
 Posteriormente, após concluir o tratamento dos dados, realizei a criação dos comandos de INSERT dos dados no novo banco que fora criado.
 ````
@@ -75,6 +90,11 @@ with open('C:/Users/leall/OneDrive/Área de Trabalho/api-lara/GeoForesight-back/
         dataframe = query = f"INSERT INTO PUBLIC.operacao_credito_estadual(ref_bacen, nu_ordem, inicio_plantio, final_plantio, inicio_colheita, final_colheita, data_vencimento, idempreendimento, idevento, idsolo, idirrigacao, idciclo, idgrao, idcultivar, idprograma, estado) VALUES ('{ref_bacen}', '{nu_ordem}', '{inicio_plantio}', '{final_plantio}', '{inicio_colheita}', '{final_colheita}', '{data_vencimento}', {idempreendimento}, {idevento}, {idsolo}, {idirrigacao}, {idciclo}, {idgrao}, {idcultivar}, {idprograma}, '{estado}');\n"
         file.write(query)
 ````
+</details>
+
+ <details>
+<summary> Endpoint de criação e verificação de aceite de termos </summary>
+<br></br>
 
 Desempenhei um papel fundamental na implementação de alguns conceitos da Lei Geral de Proteção de Dados (LGPD) no backend da aplicação. Isso envolveu a elaboração de termos de uso e consentimento, a validação do aceite desses termos e a modificação da permissão concedida.
 
@@ -117,8 +137,13 @@ JOIN tipo_termos AS tt ON tt.id_tipo = tt.id_tipo
         return jsonify({'message': 'Nenhum termo aceito encontrado'}), 404
 
 ````
+</details>
 
+<details>
+<summary>Utilização da extensão postGIS do PostgreSQL </summary>
+<br></br>
 Também tive a oportunidade de aprender como utilizar a extensão postGIS do PostgreSQL, que cria primeiramente tabelas com colunas espaciais, e entender como é feito um insert de dados geográficos. Por exemplo, na criação da coluna "coordenadas" é utilizado o tipo geography(Point,4326), que é utilizado para armazenar informações geográficas no formato Point usando o sistema de referência espacial WGS 84 (SRID 4326). 
+<br></br>
 
 ````
 CREATE TABLE IF NOT EXISTS public.glebas
@@ -144,8 +169,35 @@ Já para criar um insert é necessário utilizar a função ST_GeogFromText que 
 ````
 INSERT INTO PUBLIC.GLEBAS(REF_BACEN,  NU_ORDEM, LONGITUDE, LATITUDE,  COORDENADAS, ALTITUDE, NU_PONTO,NU_IDENTIFICADOR) VALUES('513678782','1',-52.2909909,-27.7581412,ST_GeogFromText('POINT(-52.2909909 -27.7581412)'),0,29,1);
 ````
+
+</details>
+
 ###  Aprendizados Efetivos HS
-- Trabalhar com a biblioteca Pandas do Python para extrair, transformar e carregar dados;
-- Utilizar a extensão postGIS do PostgreSQL;
-- Remodelagem e normalização de um banco de dados legado;
-- Trabalhar com Flask para desenvolvimento do backend da aplicação;
+
+Ao desenvolver esse projeto, tive diversas evoluções técnicas como explorar novas tecnologias, proporcionando um amplo espaço para aprendizado. Algumas das principais experiências incluíram:
+
+| Hard Skills                           | Nota (0-5) |
+|--------------------------------------|-------------|
+| Trabalhar com a biblioteca Pandas do Python   | ★★★★★ |
+| Utilizar a extensão postGIS do PostgreSQL   |★★★★★|
+| Extrair, transformar e carregar dados             |★★★★★|
+| Metodologia Ágil - Scrum             | ★★★★☆ |
+|Remodelagem e normalização de um banco de dados legado        |★★★★☆|
+| Trabalhar com Flask para desenvolvimento do backend da aplicação|★★★★☆ |
+
+
+Desenvolvi e aprimorei minhas habilidades interpessoais, as chamadas Soft Skills:
+
+- Resolução de Problemas 
+
+Lidar com a normalização e remodelagem de um banco de dados legado e enfrentar desafios técnicos, como a manipulação de dados geográficos, resaltam minha evolução na capacidade de resolver problemas eficientemente. 
+
+- Gestão do Tempo
+
+O envolvimento em diferentes aspectos do projeto, levantamento de requisitos com o cliente, tratamento de dados até a criação de comandos SQL, me fizeram encontrar uma forma de gerenciar eficientemente o tempo e priorizar tarefas.
+
+
+- Comunicação
+  
+A discussão em equipe para definir como desenvolver a elaboração de termos de uso, consentimento, e utilização da extensão postGIS do PostgreSQL, me fizeram evoluir e desenvolver habilidades eficazes de comunicação para traduzir informações técnicas de forma compreensível.
+
