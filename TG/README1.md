@@ -131,13 +131,30 @@ if there_exists(["registrar faltas", "anotar faltas", "adicionar faltas", "cadas
 
 ### Aprendizados Efetivos HS
 
-Neste projeto pude começar a desenvolver minhas habilidades em linguagens de programação do zero. Aprendendo o que é uma função, entender como funciona a linguagem de programação Python e aplicar lógica de programação. 
+Neste projeto pude começar a desenvolver minhas habilidades em linguagens de programação do zero. Abaixo listei alguns dos aprendizados obtidos nesse semestre:
+
+| Hard Skills                           | Nota (0-5) |
+|--------------------------------------|-------------|
+| Aprender como usar uma IDE |★★★★☆ |
+| Aprender como fazer um MER         |★★★★☆|
+|Aprender como programar   |★★★☆☆|
+| Lógica de programação   | ★★★☆☆ |
+| Metodologia Ágil - Scrum             | ★★★★☆ |
+| Biblioteca SpeechRecognition             |★★★☆☆|
+
+<br></br>
+
+Em relação a Soft Skills acredito que pude evoluir nos seguintes aspectos:
+
+- Trabalho em equipe
+
+Melhorei minha habilidade de trabalhar em equipe. Saber me comunicar de forma clara com os colegas e realizar atividades em conjunto foi fundamental para o sucesso do projeto.
+
+- Metodologias ágeis
+
+Tive meu primeiro contato com metodologias ágeis onde pude aprender como funciona o Scrum, também tive oportunidade de aplicá-lo mesmo que de forma simples sendo Scrum Master da equipe. 
+
+- Proatividade
+  
+Por ser o ínicio de tudo, a proatividade foi fundamnetal para garantir a execução das entregas acordadas com o cliente. Demonstrei iniciativa ao buscar conhecimento de forma autônoma e assumir responsabilidades adicionais quando necessário.
     
-Tendo também a oportunidade de conhecer metodologias ágeis e atuar como Scrum Master.  
-    
-- Usar lógica de programação para desenvolver cálculos;
-- Aprender como programar;
-- Aprender como usar uma IDE;
-- Aprender como fazer uma modelagem de banco de dados;
-- Aprender como usar bibliotecas;
-- Utilizar a biblioteca SpeechRecognition;
