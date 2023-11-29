@@ -66,7 +66,17 @@ O banco que usei para realizar o monitoramento foi um banco PostgreSQL.
 
 ### Aprendizados Efetivos HS
 
-- Aprender a programar em Java;
-- Aprender a elaborar queries em SQL;
-- Aprender a usar o postgreSQL;
-- Aprender a lidar diretamente com o cliente;
+
+
+| Hard Skills                           | Nota (0-5) |
+|--------------------------------------|-------------|
+| Aprender a programar em Java |★★★☆☆ |
+| Aprender a elaborar queries em SQL         |★★★★☆|
+|Aprender a usar o postgreSQL  |★★★☆☆|
+|Aprender a lidar com cliente real  | ★★★☆☆ |
+
+Em relação a Soft Skills acredito que pude evoluir nos seguintes aspectos:
+
+
+
+
