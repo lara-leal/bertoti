@@ -133,6 +133,8 @@ if there_exists(["registrar faltas", "anotar faltas", "adicionar faltas", "cadas
 
 Neste projeto pude começar a desenvolver minhas habilidades em linguagens de programação do zero. Abaixo listei alguns dos aprendizados obtidos nesse semestre:
 
+<br></br>
+
 | Hard Skills                           | Nota (0-5) |
 |--------------------------------------|-------------|
 | Aprender como usar uma IDE |★★★★☆ |
