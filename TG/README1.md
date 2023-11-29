@@ -133,7 +133,7 @@ if there_exists(["registrar faltas", "anotar faltas", "adicionar faltas", "cadas
 
 Neste projeto pude começar a desenvolver minhas habilidades em linguagens de programação do zero. Abaixo listei alguns dos aprendizados obtidos nesse semestre:
 
-<br></br>
+
 
 | Hard Skills                           | Nota (0-5) |
 |--------------------------------------|-------------|
@@ -144,7 +144,6 @@ Neste projeto pude começar a desenvolver minhas habilidades em linguagens de pr
 | Metodologia Ágil - Scrum             | ★★★★☆ |
 | Biblioteca SpeechRecognition             |★★★☆☆|
 
-<br></br>
 
 Em relação a Soft Skills acredito que pude evoluir nos seguintes aspectos:
 
