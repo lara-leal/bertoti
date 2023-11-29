@@ -183,7 +183,7 @@ Desenvolvi e aprimorei minhas habilidades interpessoais, as chamadas Soft Skills
 
 - Resiliência
   
-Trabalha em ser resiliente foi fundamental diante dos desafios enfrentados. Enfrentar situações difíceis exigiu a capacidade de me adaptar, superar obstáculos e manter um equilíbrio positivo.
+Trabalhar em ser resiliente foi fundamental diante dos desafios enfrentados. Enfrentar situações difíceis exigiu a capacidade de me adaptar, superar obstáculos e manter um equilíbrio positivo.
 
 - Comunicação Assertiva
   
