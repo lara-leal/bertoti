@@ -3,7 +3,7 @@
 <div align="center"> Projeto Integrador - 5° Semestre | Fatec Prof. Jessen Vidal - 2023 | Cliente parceiro: Midall </div>
 
 ## Visão do Projeto
-Automatizar a jornada de download de arquivos, armazenados em uma plataforma de vídeo, efetuando essa transferência para à nuvem, através do desenvolvimento de um serviço tipo aplicação, tendo como funcionalidade junto ao usuário apenas um menu de configuração, que terá os parâmetros necessários para que o serviço de download seja executado. Processar automaticamente, gerando alertas caso ocorram quaisquer erros. Salvar metadados de arquivos para construção de dashboard de monitoramento da execução do serviço e posterior análise de resultados e indicadores (ex.: quantidade de arquivos transferidos, quantidade de bytes transferidos, tempo de transferência, etc.).
+O desafio proposto foi desenvolver uma aplicação que realizasse a tranferência de arquivos entre clouds para que fosse possível tranferir arquivos de qualquer tamanho de forma eficiente e não manual. Os objetivos destacados foram: Automatizar a jornada de download de arquivos, armazenados em uma plataforma de vídeo, efetuando essa transferência para à nuvem, através do desenvolvimento de um serviço tipo aplicação, tendo como funcionalidade junto ao usuário apenas um menu de configuração, que terá os parâmetros necessários para que o serviço de download seja executado. Processar automaticamente, gerando alertas caso ocorram quaisquer erros. Salvar metadados de arquivos para construção de dashboard de monitoramento da execução do serviço e posterior análise de resultados e indicadores (ex.: quantidade de arquivos transferidos, quantidade de bytes transferidos, tempo de transferência, etc.).
 
 ## Tecnologias adotadas na solução
 
