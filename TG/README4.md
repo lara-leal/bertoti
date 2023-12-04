@@ -62,3 +62,7 @@ Desenvolvi também os CRUDS das classes de Chamados, Usuários e Agendamentos e 
 |Implementar níveis de acesso (Spring Security + JWT)      |★★★☆☆|
 |Utilizar ORM |★★★☆☆|
 
+Durante esse projeto tive a oportunidade de aprimorar minhas habilidades interpessoais, mais conhecidas como Soft Skills da seguinte maneira:
+
+
+
