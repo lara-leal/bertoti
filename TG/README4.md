@@ -53,7 +53,12 @@ Desenvolvi também os CRUDS das classes de Chamados, Usuários e Agendamentos e 
 </details>
 
 ### Aprendizados Efetivos HS
-- Utilizar persistência de dados;
-- Utilizar relacionamentos entre classes;
-- Implementar níveis de acesso (Spring Security + JWT);
-- Utilizar ORM;
+
+
+  | Hard Skills                           | Nota (0-5) |
+|--------------------------------------|-------------|
+|Utilizar persistência de dados |★★★★☆ |
+|Utilizar relacionamentos entre classes | ★★★☆☆ |
+|Implementar níveis de acesso (Spring Security + JWT)      |★★★☆☆|
+|Utilizar ORM |★★★☆☆|
+
