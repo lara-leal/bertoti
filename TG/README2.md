@@ -77,6 +77,14 @@ O banco que usei para realizar o monitoramento foi um banco PostgreSQL.
 
 Em relação a Soft Skills acredito que pude evoluir nos seguintes aspectos:
 
+- Adaptação:
+  
+Acredito que durante esse projeto tive oportunidade de poder aprender a me adaptar a necessidade de trabalhar com diferentes tecnologias como Java e PostgreSQL que são ferramentas que não tinha trabalhado anteriormente. 
+
+
+- Colaboração:
+
+Trabalhar pela primeira vez com um cliente externo me fez aprender a necessidade de cultivar um ambiente colaborativo. Também me fez perceber que a entrega bem-sucedida do projeto vai além da simples realização das solicitações do cliente. E sim da colaboração entre o time de desenvolvimento e o cliente. 
 
 
 
