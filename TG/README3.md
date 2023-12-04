@@ -64,8 +64,11 @@ Neste projeto desenvolvi mais minhas habilidades no back-End, aprendendo como  u
 
 Já no front-End o aprendizado foi limitado pois não foi o foco de desenvolvimento no projeto, porém, aprendi um pouco sobre estruturas das páginas em HTML e funcionalidades em JavaScript.
 
-- Criação de CRUD’S completos;
-- Requisição GET, POST, PUT, DELETE;
-- Organizar a arquitetura do projeto de forma correta;
-- Usar lógica de programação para desenvolver regras para criação de promoções;
-- Desenvolver aplicações utilizando frameworks de REST API;
+
+  | Hard Skills                           | Nota (0-5) |
+|--------------------------------------|-------------|
+| Criação de CRUD's |★★★★☆ |
+|Trabalhar com requisições GET, POST, PUT e DELETE | ★★★☆☆ |
+|Reestruturar projeto utilizando Design Patterns       |★★★★☆|
+| Utilizar logica de programação para criar motor de regra  |★★★☆☆|
+|Aprender a utilizar frameworks de REST API  | ★★★☆☆ |
