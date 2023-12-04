@@ -72,3 +72,5 @@ Já no front-End o aprendizado foi limitado pois não foi o foco de desenvolvime
 |Reestruturar projeto utilizando Design Patterns       |★★★★☆|
 | Utilizar logica de programação para criar motor de regra  |★★★☆☆|
 |Aprender a utilizar frameworks de REST API  | ★★★☆☆ |
+
+Tive também, a oportunidade de aprimorar minhas habilidades interpessoais, mais conhecidas como Soft Skills da seguinte maneira:
