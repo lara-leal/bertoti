@@ -74,3 +74,9 @@ Já no front-End o aprendizado foi limitado pois não foi o foco de desenvolvime
 |Aprender a utilizar frameworks de REST API  | ★★★☆☆ |
 
 Tive também, a oportunidade de aprimorar minhas habilidades interpessoais, mais conhecidas como Soft Skills da seguinte maneira:
+
+- Adaptabilidade:
+
+Durante o desenvolvimento, foi necessário se adaptar a mudanças nos requisitos e na arquitetura do projeto. Lidar com essas mudanças demandou flexibilidade e capacidade de se ajustar a novos cenários levantados pelo cliente. 
+
+
