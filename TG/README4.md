@@ -64,5 +64,7 @@ Desenvolvi também os CRUDS das classes de Chamados, Usuários e Agendamentos e 
 
 Durante esse projeto tive a oportunidade de aprimorar minhas habilidades interpessoais, mais conhecidas como Soft Skills da seguinte maneira:
 
+- Liderança:
 
 
+Desenvolver CRUDs e implementar DTOs em classes específicas me exigiram aprender a liderar em tarefas específicas para que os outros integrantes pudessem ficar por dentro do desenvolvimento. 
