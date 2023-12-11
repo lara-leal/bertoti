@@ -75,6 +75,8 @@ O banco que usei para realizar o monitoramento foi um banco PostgreSQL.
 |Aprender a usar o postgreSQL  |★★★☆☆|
 |Aprender a lidar com cliente real  | ★★★☆☆ |
 
+### Soft skills
+
 Em relação a Soft Skills acredito que pude evoluir nos seguintes aspectos:
 
 - Adaptação:
