@@ -73,7 +73,6 @@ O banco que usei para realizar o monitoramento foi um banco PostgreSQL.
 | Aprender a programar em Java |★★★☆☆ |
 | Aprender a elaborar queries em SQL         |★★★★☆|
 |Aprender a usar o postgreSQL  |★★★☆☆|
-|Aprender a lidar com cliente real  | ★★★☆☆ |
 
 ### Soft skills
 
