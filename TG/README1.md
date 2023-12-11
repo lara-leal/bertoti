@@ -144,6 +144,7 @@ Neste projeto pude começar a desenvolver minhas habilidades em linguagens de pr
 | Metodologia Ágil - Scrum             | ★★★★☆ |
 | Biblioteca SpeechRecognition             |★★★☆☆|
 
+### Soft skills
 
 Em relação a Soft Skills acredito que pude evoluir nos seguintes aspectos:
 
