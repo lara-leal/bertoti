@@ -180,6 +180,8 @@ Ao desenvolver esse projeto, tive diversas evoluções técnicas como explorar n
 
 <br></br>
 
+### Soft skills
+
 
 Desenvolvi e aprimorei minhas habilidades interpessoais, as chamadas Soft Skills, que irei detalhar a seguir:
 
