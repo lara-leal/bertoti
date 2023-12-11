@@ -158,5 +158,5 @@ Tive meu primeiro contato com metodologias ágeis onde pude aprender como funcio
 
 - Proatividade
   
-Por ser o ínicio de tudo, a proatividade foi fundamnetal para garantir a execução das entregas acordadas com o cliente. Demonstrei iniciativa ao buscar conhecimento de forma autônoma e assumir responsabilidades adicionais quando necessário.
+Por ser o ínicio de tudo, a proatividade foi fundamental para garantir a execução das entregas acordadas com o cliente. Demonstrei iniciativa ao buscar conhecimento de forma autônoma e assumir responsabilidades adicionais quando necessário.
     
