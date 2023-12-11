@@ -178,7 +178,6 @@ Ao desenvolver esse projeto, tive diversas evoluções técnicas como explorar n
 | Power BI |★★★★☆ |
 | Utilizar Google drive API             |★★★☆☆|
 
-<br></br>
 
 ### Soft skills
 
