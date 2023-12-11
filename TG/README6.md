@@ -185,6 +185,8 @@ Ao desenvolver esse projeto, tive diversas evoluções técnicas como explorar n
 |Remodelagem e normalização de um banco de dados legado        |★★★★☆|
 | Trabalhar com Flask para desenvolvimento do backend da aplicação|★★★★☆ |
 
+### Soft skills
+
 
 Desenvolvi e aprimorei minhas habilidades interpessoais, as chamadas Soft Skills:
 
